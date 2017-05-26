@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in $[seq 5]
+for i in $(seq 5)
   do
     echo 'viking'
   done
