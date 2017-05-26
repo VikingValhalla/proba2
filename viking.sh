@@ -13,3 +13,10 @@ else
 	echo "nem nagyobb"
 fi
  
+count=5
+
+while [$count -gt 0];
+	do
+echo Value of count is:$count
+let count = count + 1
+	done
